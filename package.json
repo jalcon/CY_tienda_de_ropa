@@ -1,0 +1,24 @@
+{
+  "autor": "jalcon",
+  "name": "tienda-de-ropa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "json-server -p3001 --watch db.json",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "Jalcon",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.5",
+    "cypress": "^8.7.0",
+    "json-server": "^0.15.1"
+  },
+  "description": "Pruebas automatizadas del sistema de tienda de ropa"
+}
